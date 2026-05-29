@@ -11,7 +11,7 @@ and sizes bets with fractional Kelly.
 
 ## Motivation
 
-I love two things: golf and prediction markets. This project started as an attempt to put them together —
+I love a lot of things, but also: golf and prediction markets. This project started as an attempt to put them together —
 can a model actually beat the book on PGA Tour events?
 
 My first instinct was the obvious one: **predict the outright winner.** It didn't work. A golf tournament
@@ -98,7 +98,7 @@ This repo is **code only**. To run it for real you need two paid/external pieces
    the data with the scripts in [`scripts/`](scripts/) (e.g. `scripts/14_pull_season_data.py`).
 2. **Anthropic Claude API key** — only needed for the optional news-research briefing (see below). ~$0.30/week.
 
-Free dependency: **Open-Meteo** for weather (no auth required).
+Free dependency: **Open-Meteo** for weather (no auth required). (if you develop thsi part of the project tho)
 
 **Excluded from the repo** (see [`.gitignore`](.gitignore)): the `data/` directory (proprietary DataGolf
 data), trained model `artifacts/`, research `cache/`, run logs, and all secrets. You regenerate data and
@@ -178,9 +178,14 @@ golf_data-model/
 
 ---
 
+***Thank you for your time!!! I greatly enjoyed working on this! Thank you for my friends for being a great motivation for me, and Sonnet for being my personal assistant on the way.***
+
+
+---
+
 ## Disclaimer
 
 This is a personal research project for studying prediction markets and Bayesian modeling. It is **not
-financial advice**, and nothing here is a guarantee of profit — backtest results are historical and sports
+financial advice**, and nothing here is a guarantee of profit, backtest results are historical and sports
 betting carries real risk of loss. Bet responsibly and only what you can afford to lose, and follow the laws
 and sportsbook terms in your jurisdiction.
