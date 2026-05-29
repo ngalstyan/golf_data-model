@@ -1,0 +1,32 @@
+# Secrets
+.env
+**/.env
+.claude/settings.local.json
+
+# Proprietary / derived data (DataGolf is a paid tier, not redistributable)
+/data/
+golf_model/data/raw/
+golf_model/data/processed/
+golf_model/data/diagnostics/
+golf_model/cache/
+golf_model/artifacts/
+
+# Legacy / redundant
+old/
+golf_model.zip
+outputs/
+
+# Logs
+logs/
+golf_model/logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+.pytest_cache/
+
+# OS
+.DS_Store
